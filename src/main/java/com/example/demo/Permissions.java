@@ -1,7 +1,5 @@
 package com.example.demo;
 
-import org.springframework.data.repository.cdi.Eager;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

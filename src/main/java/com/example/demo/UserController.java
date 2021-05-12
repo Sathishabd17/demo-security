@@ -93,15 +93,15 @@ public class UserController {
         rolesList.add(roles2);
 
         User user = new User();
-        user.setFirstname("sathish");
-        user.setLastname("kumar");
+        user.setFirstname("user");
+        user.setLastname("service");
         user.setPassword(passwordEncoder.encode("password"));
         user.setRoles(Arrays.asList(roles, roles1));
         userRepository.save(user);
 
         User user1 = new User();
-        user1.setFirstname("virat");
-        user1.setLastname("kohli");
+        user1.setFirstname("admin");
+        user1.setLastname("service");
         user1.setPassword(passwordEncoder.encode("password"));
         user1.setRoles(rolesList);
         userRepository.save(user1);
